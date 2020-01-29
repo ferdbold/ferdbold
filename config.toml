@@ -1,0 +1,32 @@
+baseURL = "http://ferdbold.com/"
+languageCode = "fr-CA"
+title = "ferdbold | Frédéric Bolduc"
+theme = "pulp"
+
+[params]
+  author = "Frédéric Bolduc"
+  description = "Gamedev. LARP. Ananas sur la pizza. Bonjour/Hi."
+
+[[menu.main]]
+  identifier = "blog"
+  pre = "<i class='fa fa-book-open fa-lg'></i>"
+  url = "/blog/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "twitter"
+  pre = "<i class='fab fa-twitter fa-lg'></i>"
+  url = "https://twitter.com/itsferdbold"
+  weight = 20
+
+[[menu.main]]
+  identifier = "github"
+  pre = "<i class='fab fa-github fa-lg'></i>"
+  url = "https://github.com/ferdbold"
+  weight = 30
+
+[[menu.main]]
+  identifier = "email"
+  pre = "<i class='fa fa-envelope fa-lg'></i>"
+  url = "mailto:me@ferdbold.com"
+  weight = 40
