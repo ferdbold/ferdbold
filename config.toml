@@ -1,11 +1,12 @@
 baseURL = "http://ferdbold.com/"
-languageCode = "fr-CA"
 title = "ferdbold | Frédéric Bolduc"
 theme = "pulp"
+languageCode = "fr-CA"
 
 [params]
   author = "Frédéric Bolduc"
   description = "Gamedev. LARP. Ananas sur la pizza. Bonjour/Hi."
+  avatar = "avatar.jpg"
 
 [[menu.main]]
   identifier = "blog"
@@ -23,6 +24,12 @@ theme = "pulp"
   identifier = "github"
   pre = "<i class='fab fa-github fa-lg'></i>"
   url = "https://github.com/ferdbold"
+  weight = 30
+
+[[menu.main]]
+  identifier = "linkedin"
+  pre = "<i class='fab fa-linkedin fa-lg'></i>"
+  url = "https://linkedin.com/in/bolducfrederic"
   weight = 30
 
 [[menu.main]]
