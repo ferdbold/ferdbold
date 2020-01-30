@@ -1,0 +1,16 @@
+<header>
+  <nav>
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  <div class="avatar">
+    <img class="avatarMask" src="{{ .Site.BaseURL }}/img/{{ .Site.Params.avatar }}">
+    <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}/img/avatar-border.svg"></a>
+  </div>
+
+  <h2><a class="author" href="{{ .Site.BaseURL }}">{{ .Site.Params.Author }}</a></h2>
+</header>

@@ -10,29 +10,41 @@ languageCode = "fr-CA"
 
 [[menu.main]]
   identifier = "blog"
-  pre = "<i class='fa fa-book-open fa-lg'></i>"
+  pre = "Blog"
   url = "/blog/"
   weight = 10
 
 [[menu.main]]
-  identifier = "twitter"
-  pre = "<i class='fab fa-twitter fa-lg'></i>"
-  url = "https://twitter.com/itsferdbold"
+  identifier = "projects"
+  pre = "My work"
+  url = "/work/"
   weight = 20
 
 [[menu.main]]
+  identifier = "about"
+  pre = "About"
+  url = "/about/"
+  weight = 30
+
+[[menu.social]]
+  identifier = "twitter"
+  pre = "<i class='fab fa-twitter fa-lg'></i>"
+  url = "https://twitter.com/itsferdbold"
+  weight = 10
+
+[[menu.social]]
   identifier = "github"
   pre = "<i class='fab fa-github fa-lg'></i>"
   url = "https://github.com/ferdbold"
-  weight = 30
+  weight = 20
 
-[[menu.main]]
+[[menu.social]]
   identifier = "linkedin"
-  pre = "<i class='fab fa-linkedin fa-lg'></i>"
+  pre = "<i class='fab fa-linkedin-in fa-lg'></i>"
   url = "https://linkedin.com/in/bolducfrederic"
   weight = 30
 
-[[menu.main]]
+[[menu.social]]
   identifier = "email"
   pre = "<i class='fa fa-envelope fa-lg'></i>"
   url = "mailto:me@ferdbold.com"

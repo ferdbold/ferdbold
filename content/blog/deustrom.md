@@ -1,7 +1,6 @@
 ---
 title: "Déuström!"
 date: 2016-04-03 02:07:00 -0400
-draft: true
 ---
 
 ![Déuström banner]({{ site.base_url }}/public/images/banner-deustrom.png)
