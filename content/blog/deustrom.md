@@ -16,4 +16,4 @@ I've recently completed this year Ubisoft's Game Lab competition, pitting 17 und
 
 That was one hell of a journey, but I'm very proud of what my team and I were able to accomplish with DÉUSTRÖM.
 
-Check it out on its [project page!]({{ site.base_url }}/projects/deustrom/)
+Check it out on its [project page](/work/deustrom/)!
