@@ -4,8 +4,9 @@ date: 2014-01-01
 website: gnterraarcana.com
 github: terra-arcana/terra-arcana
 thumbnail: http://ferdbold.com/public/images/terra-thumbnail.png
-banner: http://ferdbold.com/public/images/terra-banner.png
 ---
+
+![Terra Arcana banner](/img/work/terra-arcana/banner.png)
 
 **Terra Arcana** is a LARP event hosted twice per year in Saint-Apollinaire, QC, co-founded by me and 4 other LARP enthusiasts in 2013. Our mission is to bring LARP players a collaborative storytelling experience that focuses on teamplay through a rich and innovative game system built from scratch, as well as deep character development through tailored quests made in collaboration with the players themselves.
 

@@ -3,7 +3,7 @@ title: "Déuström!"
 date: 2016-04-03 02:07:00 -0400
 ---
 
-![Déuström banner]({{ site.base_url }}/public/images/banner-deustrom.png)
+![Déuström banner](/img/work/deustrom/banner.png)
 
 I've recently completed this year Ubisoft's Game Lab competition, pitting 17 undergrad teams from all universities in Quebec in a battle to build the best game prototype possible in 10 weeks. There were a LOT of constraints required for the prototypes to meet, such as:
 

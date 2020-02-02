@@ -4,8 +4,9 @@ date: 2015-01-01
 website: mediawiki.org/wiki/Extension:Graph
 github: wikimedia/mediawiki-extensions-Graph
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/1/1c/MediaWiki_logo.png
-banner: https://upload.wikimedia.org/wikipedia/mediawiki/thumb/0/03/Ve-graph-showcase.png/1200px-Ve-graph-showcase.png
 ---
+
+![Graph-VE showcase](https://upload.wikimedia.org/wikipedia/mediawiki/thumb/0/03/Ve-graph-showcase.png/1200px-Ve-graph-showcase.png)
 
 **Graph-VE** was a project developed during [Google Summer of Code 2015](https://developers.google.com/open-source/gsoc/) for the [Wikimedia Foundation](https://wikimediafoundation.org) to bring graph editing capabilities to MediaWiki's VisualEditor project.
 

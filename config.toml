@@ -21,10 +21,16 @@ languageCode = "fr-CA"
   weight = 20
 
 [[menu.main]]
+  identifier = "talks"
+  pre = "Talks"
+  url = "/talk/"
+  weight = 30
+
+[[menu.main]]
   identifier = "about"
   pre = "About"
   url = "/about/"
-  weight = 30
+  weight = 40
 
 [[menu.social]]
   identifier = "twitter"
