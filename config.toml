@@ -2,6 +2,59 @@ baseURL = "http://ferdbold.com/"
 title = "ferdbold | Frédéric Bolduc"
 theme = "pulp"
 languageCode = "fr-CA"
+DefaultContentLanguage = "fr"
+
+[languages]
+  [languages.fr]
+    weight = 1
+
+  [languages.en]
+    weight = 2
+    [languages.en.params]
+      description = "Gamedev. LARP. Pineapple on pizza. Bonjour/Hi."
+
+    [[languages.en.menu.main]]
+      identifier = "blog"
+      pre = "Blog"
+      url = "/en/blog/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "projects"
+      pre = "My work"
+      url = "/en/work/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "talks"
+      pre = "Talks"
+      url = "/en/talk/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "about"
+      pre = "About"
+      url = "/en/about/"
+      weight = 40
+
+    [[languages.en.menu.social]]
+      identifier = "twitter"
+      pre = "<i class='fab fa-twitter fa-lg'></i>"
+      url = "https://twitter.com/itsferdbold"
+      weight = 10
+    [[languages.en.menu.social]]
+      identifier = "github"
+      pre = "<i class='fab fa-github fa-lg'></i>"
+      url = "https://github.com/ferdbold"
+      weight = 20
+    [[languages.en.menu.social]]
+      identifier = "linkedin"
+      pre = "<i class='fab fa-linkedin-in fa-lg'></i>"
+      url = "https://linkedin.com/in/bolducfrederic"
+      weight = 30
+    [[languages.en.menu.social]]
+      identifier = "email"
+      pre = "<i class='fa fa-envelope fa-lg'></i>"
+      url = "mailto:me@ferdbold.com"
+      weight = 40
+
 
 [params]
   author = "Frédéric Bolduc"
@@ -10,26 +63,23 @@ languageCode = "fr-CA"
 
 [[menu.main]]
   identifier = "blog"
-  pre = "Blog"
-  url = "/blog/"
+  pre = "Blogue"
+  url = "/blogue/"
   weight = 10
-
 [[menu.main]]
-  identifier = "projects"
-  pre = "My work"
-  url = "/work/"
+  identifier = "portfolio"
+  pre = "Portfolio"
+  url = "/portfolio/"
   weight = 20
-
 [[menu.main]]
-  identifier = "talks"
-  pre = "Talks"
-  url = "/talk/"
+  identifier = "presentation"
+  pre = "Présentations"
+  url = "/presentation/"
   weight = 30
-
 [[menu.main]]
   identifier = "about"
-  pre = "About"
-  url = "/about/"
+  pre = "À propos"
+  url = "/a-propos/"
   weight = 40
 
 [[menu.social]]
@@ -37,19 +87,16 @@ languageCode = "fr-CA"
   pre = "<i class='fab fa-twitter fa-lg'></i>"
   url = "https://twitter.com/itsferdbold"
   weight = 10
-
 [[menu.social]]
   identifier = "github"
   pre = "<i class='fab fa-github fa-lg'></i>"
   url = "https://github.com/ferdbold"
   weight = 20
-
 [[menu.social]]
   identifier = "linkedin"
   pre = "<i class='fab fa-linkedin-in fa-lg'></i>"
   url = "https://linkedin.com/in/bolducfrederic"
   weight = 30
-
 [[menu.social]]
   identifier = "email"
   pre = "<i class='fa fa-envelope fa-lg'></i>"
