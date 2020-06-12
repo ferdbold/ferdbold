@@ -37,7 +37,7 @@ DefaultContentLanguage = "fr"
     [[languages.en.menu.social]]
       identifier = "twitter"
       pre = "<i class='fab fa-twitter fa-lg'></i>"
-      url = "https://twitter.com/itsferdbold"
+      url = "https://twitter.com/panachemidi"
       weight = 10
     [[languages.en.menu.social]]
       identifier = "github"
@@ -47,7 +47,7 @@ DefaultContentLanguage = "fr"
     [[languages.en.menu.social]]
       identifier = "linkedin"
       pre = "<i class='fab fa-linkedin-in fa-lg'></i>"
-      url = "https://linkedin.com/in/bolducfrederic"
+      url = "https://linkedin.com/in/ferdbold"
       weight = 30
     [[languages.en.menu.social]]
       identifier = "email"
@@ -85,7 +85,7 @@ DefaultContentLanguage = "fr"
 [[menu.social]]
   identifier = "twitter"
   pre = "<i class='fab fa-twitter fa-lg'></i>"
-  url = "https://twitter.com/itsferdbold"
+  url = "https://twitter.com/panachemidi"
   weight = 10
 [[menu.social]]
   identifier = "github"
@@ -95,7 +95,7 @@ DefaultContentLanguage = "fr"
 [[menu.social]]
   identifier = "linkedin"
   pre = "<i class='fab fa-linkedin-in fa-lg'></i>"
-  url = "https://linkedin.com/in/bolducfrederic"
+  url = "https://linkedin.com/in/ferdbold"
   weight = 30
 [[menu.social]]
   identifier = "email"
